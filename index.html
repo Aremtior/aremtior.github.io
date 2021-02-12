@@ -26,21 +26,44 @@
         }
         h1 {
             font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 22px;
+        }
+        .name::before {
+            content: "\2727   ";
+        }
+        .name::after {
+            content: "   \2727";
+        }
+        .name {
+            font-family: monospace;
+            font-size: 72px;
+            text-transform: uppercase;
         }
         h2 {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            background-color: #A3CEF1;
+            background-color: #DB162F20;
             padding: 10px;
             color: #484041;
-            border: solid 1px #DB162F80;
+            border: solid 1px #484041;
             border-radius: 11px;
+        }
+        h2::before {
+            content: "\25c7 \25c6 \25c7";
+            margin-right: 30px;
+            color: #ffffff80;
+        }
+        h2::after {
+            content: "\25c7 \25c6 \25c7";
+            margin-left: 30px;
+            color: #ffffff80;
         }
         h3 {
             margin: 0px 0px 5px;
         }
         .round-image {
             background-image: url('aremtior-no-bg.png');
-            background-color: #6096BA;
+            background-color: #A3CEF140;
             background-size:cover;
             background-repeat:no-repeat;
             background-position: center;
@@ -80,7 +103,7 @@
 </head>
 <body>
     <div class="main">
-        <h1 id="inicio">Marcos Aurélio Pedroso Leandro</h1>
+        <h1 id="inicio"><span class="name">Aremtior</span> <br> Marcos Aurélio Pedroso Leandro</h1>
         <div id="fotoPerfil" class="round-image"></div>
         <h2 id="description">Brasileiro, Coronel Vivida/PR</h2>
         <div class="brief">
