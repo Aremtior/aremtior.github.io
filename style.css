@@ -1,0 +1,96 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+body {
+    background-color: #484041bf;
+    color: #ffffff;
+    margin: 0px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: #ffffff;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin: 50px 0px;
+}
+.name::before {
+    content: "\2727   ";
+}
+.name::after {
+    content: "   \2727";
+}
+.name {
+    font-family: monospace;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #DB162F20;
+    padding: 10px;
+    color: #484041;
+    border: solid 1px #484041;
+    border-radius: 11px;
+    margin: 50px 0px;
+}
+h2::before {
+    content: "\25c7 \25c6 \25c7";
+    margin-right: 30px;
+    color: #ffffff80;
+}
+h2::after {
+    content: "\25c7 \25c6 \25c7";
+    margin-left: 30px;
+    color: #ffffff80;
+}
+h3 {
+    margin: 0px 0px 5px;
+}
+.round-image {
+    background-image: url('aremtior-no-bg.png');
+    background-color: #A3CEF140;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    border: solid 1px #DB162F80;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+}
+.brief {
+    width: 540px;
+    text-align: justify;
+}
+.brief p {
+    line-height: 28px;
+    font-size: 18px;
+}
+#frase {
+    width: 180px;
+    font-size: 32px;
+    text-align: center;
+    background-color: #A3CEF1;
+    color: #DB162F80;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    box-shadow: 12px 10px #484041;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #484041;
+    padding: 20px 50px;
+}
